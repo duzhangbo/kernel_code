@@ -9,6 +9,9 @@
 #include <unistd.h>
 #include <string.h>
 #include <sys/mman.h>
+
+#define MYNAME duzhangbo
+
 int xres, yres, bits_per_pixel, fbsz;
 int *fb;
 void usage(const char *str, const char *devstr)
